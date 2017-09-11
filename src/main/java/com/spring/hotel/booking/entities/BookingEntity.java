@@ -1,6 +1,7 @@
 package com.spring.hotel.booking.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by PC on 09/11/17.
@@ -14,9 +15,8 @@ public class BookingEntity {
     @Column(name = "Id")
     private int id;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
-    private BookingDetailsEntity bookingDetails;
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "bookingDetails")
+    private List<BookingDetailsEntity> bookingDetailsEntityList;
 
     @ManyToOne
     @JoinColumn(name = "UserId")
@@ -37,12 +37,12 @@ public class BookingEntity {
         this.id = id;
     }
 
-    public BookingDetailsEntity getBookingDetails() {
-        return bookingDetails;
+    public List<BookingDetailsEntity> getBookingDetailsEntityList() {
+        return bookingDetailsEntityList;
     }
 
-    public void setBookingDetails(BookingDetailsEntity bookingDetails) {
-        this.bookingDetails = bookingDetails;
+    public void setBookingDetailsEntityList(List<BookingDetailsEntity> bookingDetailsEntityList) {
+        this.bookingDetailsEntityList = bookingDetailsEntityList;
     }
 
     public UserEntity getUserId() {

@@ -1,6 +1,7 @@
 package com.spring.hotel.booking.entities;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -25,9 +26,6 @@ public class RoomEntity {
     @JoinColumn(name = "CategoryId")
     private CategoryRoomEntity categoryId;
 
-    @OneToOne(mappedBy = "room")
-    private DiscountEntity discountId;
-
     @Column(name = "Description")
     private String description;
 
@@ -36,6 +34,15 @@ public class RoomEntity {
 
     @Column(name = "ChildrenPrice")
     private float childrenPrice;
+
+    @Column(name = "Sale")
+    private int sale;
+
+    @Column(name = "BeginDate")
+    private Date beginDate;
+
+    @Column(name = "EndDate")
+    private Date endDate;
 
     @Column(name = "Note")
     private String note;
@@ -75,14 +82,6 @@ public class RoomEntity {
         this.categoryId = categoryId;
     }
 
-    public DiscountEntity getDiscountId() {
-        return discountId;
-    }
-
-    public void setDiscountId(DiscountEntity discountId) {
-        this.discountId = discountId;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -105,6 +104,30 @@ public class RoomEntity {
 
     public void setChildrenPrice(float childrenPrice) {
         this.childrenPrice = childrenPrice;
+    }
+
+    public int getSale() {
+        return sale;
+    }
+
+    public void setSale(int sale) {
+        this.sale = sale;
+    }
+
+    public Date getBeginDate() {
+        return beginDate;
+    }
+
+    public void setBeginDate(Date beginDate) {
+        this.beginDate = beginDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 
     public String getNote() {

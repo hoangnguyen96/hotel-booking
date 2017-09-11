@@ -15,8 +15,9 @@ public class BookingDetailsEntity {
     @Column(name = "Id")
     private int id;
 
-    @OneToOne(mappedBy = "bookingDetails")
-    private BookingEntity bookingId;
+    @ManyToOne
+    @JoinColumn(name = "BookingId")
+    private BookingEntity bookingDetails;
 
     @Column(name = "DateCheckIn")
     private Date dateCheckIn;
@@ -47,12 +48,12 @@ public class BookingDetailsEntity {
         this.id = id;
     }
 
-    public BookingEntity getBookingId() {
-        return bookingId;
+    public BookingEntity getBookingDetails() {
+        return bookingDetails;
     }
 
-    public void setBookingId(BookingEntity bookingId) {
-        this.bookingId = bookingId;
+    public void setBookingDetails(BookingEntity bookingDetails) {
+        this.bookingDetails = bookingDetails;
     }
 
     public Date getDateCheckIn() {
