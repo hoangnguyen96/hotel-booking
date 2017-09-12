@@ -1,7 +1,6 @@
 package com.spring.hotel.booking.entities;
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,14 +16,14 @@ public class RoomEntity {
     private int id;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "roomId")
-    private List<BookingEntity> bookingEntityList;
+    private List<BookingDetailsEntity> bookingDetailsEntityList;
 
     @Column(name = "Name")
     private String name;
 
     @ManyToOne
-    @JoinColumn(name = "CategoryId")
-    private CategoryRoomEntity categoryId;
+    @JoinColumn(name = "RoomTypeId")
+    private RoomTypeEntity roomTypeId;
 
     @Column(name = "Description")
     private String description;
@@ -38,11 +37,8 @@ public class RoomEntity {
     @Column(name = "Sale")
     private int sale;
 
-    @Column(name = "BeginDate")
-    private Date beginDate;
-
-    @Column(name = "EndDate")
-    private Date endDate;
+    @Column(name = "Status")
+    private String status;
 
     @Column(name = "Note")
     private String note;
@@ -58,12 +54,12 @@ public class RoomEntity {
         this.id = id;
     }
 
-    public List<BookingEntity> getBookingEntityList() {
-        return bookingEntityList;
+    public List<BookingDetailsEntity> getBookingDetailsEntityList() {
+        return bookingDetailsEntityList;
     }
 
-    public void setBookingEntityList(List<BookingEntity> bookingEntityList) {
-        this.bookingEntityList = bookingEntityList;
+    public void setBookingDetailsEntityList(List<BookingDetailsEntity> bookingDetailsEntityList) {
+        this.bookingDetailsEntityList = bookingDetailsEntityList;
     }
 
     public String getName() {
@@ -74,12 +70,12 @@ public class RoomEntity {
         this.name = name;
     }
 
-    public CategoryRoomEntity getCategoryId() {
-        return categoryId;
+    public RoomTypeEntity getRoomTypeId() {
+        return roomTypeId;
     }
 
-    public void setCategoryId(CategoryRoomEntity categoryId) {
-        this.categoryId = categoryId;
+    public void setRoomTypeId(RoomTypeEntity roomTypeId) {
+        this.roomTypeId = roomTypeId;
     }
 
     public String getDescription() {
@@ -114,20 +110,12 @@ public class RoomEntity {
         this.sale = sale;
     }
 
-    public Date getBeginDate() {
-        return beginDate;
+    public String getStatus() {
+        return status;
     }
 
-    public void setBeginDate(Date beginDate) {
-        this.beginDate = beginDate;
-    }
-
-    public Date getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getNote() {

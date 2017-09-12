@@ -17,7 +17,11 @@ public class BookingDetailsEntity {
 
     @ManyToOne
     @JoinColumn(name = "BookingId")
-    private BookingEntity bookingDetails;
+    private BookingEntity bookingId;
+
+    @ManyToOne
+    @JoinColumn(name = "RoomId")
+    private RoomEntity roomId;
 
     @Column(name = "DateCheckIn")
     private Date dateCheckIn;
@@ -31,11 +35,8 @@ public class BookingDetailsEntity {
     @Column(name = "ChildrenQuantity")
     private int childrenQuantity;
 
-    @Column(name = "TicketCode")
-    private String ticketCode;
-
-    @Column(name = "Note")
-    private String note;
+    @Column(name = "Cost")
+    private String cost;
 
     public BookingDetailsEntity() {
     }
@@ -48,12 +49,20 @@ public class BookingDetailsEntity {
         this.id = id;
     }
 
-    public BookingEntity getBookingDetails() {
-        return bookingDetails;
+    public BookingEntity getBookingId() {
+        return bookingId;
     }
 
-    public void setBookingDetails(BookingEntity bookingDetails) {
-        this.bookingDetails = bookingDetails;
+    public void setBookingId(BookingEntity bookingId) {
+        this.bookingId = bookingId;
+    }
+
+    public RoomEntity getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(RoomEntity roomId) {
+        this.roomId = roomId;
     }
 
     public Date getDateCheckIn() {
@@ -88,19 +97,11 @@ public class BookingDetailsEntity {
         this.childrenQuantity = childrenQuantity;
     }
 
-    public String getTicketCode() {
-        return ticketCode;
+    public String getCost() {
+        return cost;
     }
 
-    public void setTicketCode(String ticketCode) {
-        this.ticketCode = ticketCode;
-    }
-
-    public String getNote() {
-        return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note;
+    public void setCost(String cost) {
+        this.cost = cost;
     }
 }

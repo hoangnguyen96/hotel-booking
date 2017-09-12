@@ -1,6 +1,7 @@
 package com.spring.hotel.booking.entities;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -15,16 +16,30 @@ public class BookingEntity {
     @Column(name = "Id")
     private int id;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "bookingDetails")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "bookingId")
     private List<BookingDetailsEntity> bookingDetailsEntityList;
 
     @ManyToOne
     @JoinColumn(name = "UserId")
     private UserEntity userId;
 
-    @ManyToOne
-    @JoinColumn(name = "RoomId")
-    private RoomEntity roomId;
+    @Column(name = "BookingDate")
+    private Date bookingDate;
+
+    @Column(name = "Scmnd")
+    private String scmnd;
+
+    @Column(name = "Phone")
+    private String phone;
+
+    @Column(name = "Address")
+    private String address;
+
+    @Column(name = "TicketCode")
+    private String ticketCode;
+
+    @Column(name = "Note")
+    private String note;
 
     public BookingEntity() {
     }
@@ -53,11 +68,51 @@ public class BookingEntity {
         this.userId = userId;
     }
 
-    public RoomEntity getRoomId() {
-        return roomId;
+    public Date getBookingDate() {
+        return bookingDate;
     }
 
-    public void setRoomId(RoomEntity roomId) {
-        this.roomId = roomId;
+    public void setBookingDate(Date bookingDate) {
+        this.bookingDate = bookingDate;
+    }
+
+    public String getScmnd() {
+        return scmnd;
+    }
+
+    public void setScmnd(String scmnd) {
+        this.scmnd = scmnd;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getTicketCode() {
+        return ticketCode;
+    }
+
+    public void setTicketCode(String ticketCode) {
+        this.ticketCode = ticketCode;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
     }
 }

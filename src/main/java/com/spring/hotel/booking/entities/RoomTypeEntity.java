@@ -7,15 +7,15 @@ import java.util.List;
  * Created by PC on 09/11/17.
  */
 @Entity
-@Table(name = "categoryroom")
-public class CategoryRoomEntity {
+@Table(name = "roomtype")
+public class RoomTypeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Id")
     private int id;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "categoryId")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "roomTypeId")
     private List<RoomEntity> roomEntityList;
 
     @Column(name = "Name")
@@ -24,7 +24,10 @@ public class CategoryRoomEntity {
     @Column(name = "BedQuantity")
     private int bedQuantity;
 
-    public CategoryRoomEntity() {
+    @Column(name = "Cost")
+    private float cost;
+
+    public RoomTypeEntity() {
     }
 
     public List<RoomEntity> getRoomEntityList() {
@@ -49,5 +52,21 @@ public class CategoryRoomEntity {
 
     public void setBedQuantity(int bedQuantity) {
         this.bedQuantity = bedQuantity;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public float getCost() {
+        return cost;
+    }
+
+    public void setCost(float cost) {
+        this.cost = cost;
     }
 }
