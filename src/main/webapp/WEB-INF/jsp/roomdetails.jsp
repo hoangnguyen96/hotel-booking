@@ -66,54 +66,54 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner">
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-1.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-1.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-2.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-2.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-3.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-3.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-4.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-4.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-5.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-5.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-6.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-6.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item">
-                                                    <img src="img/rooms-detail-slider-7.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-7.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                                 <div class="item active">
-                                                    <img src="img/rooms-detail-slider-8.jpg" class="thumb-preview" alt="Chevrolet Impala">
+                                                    <img src="../../resources/img/rooms-detail-slider-8.jpg" class="thumb-preview" alt="Chevrolet Impala">
                                                 </div>
                                             </div>
                                             <!-- Controls -->
                                             <a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev">
                                     <span class="slider-mover-left no-bg" aria-hidden="true">
-                                        <img src="img/chevron-left.png" alt="chevron-left">
+                                        <img src="../../resources/img/chevron-left.png" alt="chevron-left">
                                     </span>
                                                 <span class="sr-only">Previous</span>
                                             </a>
                                             <a class="right carousel-control" href="#carousel-custom" role="button" data-slide="next">
                                     <span class="slider-mover-right no-bg" aria-hidden="true">
-                                        <img src="img/chevron-right.png" alt="chevron-right">
+                                        <img src="../../resources/img/chevron-right.png" alt="chevron-right">
                                     </span>
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
                                         <!-- Indicators -->
                                         <ol class="carousel-indicators thumbs visible-lg visible-md">
-                                            <li data-target="#carousel-custom" data-slide-to="0" class=""><img src="img/rooms-detail-slider-1.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="1" class=""><img src="img/rooms-detail-slider-2.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="2" class=""><img src="img/rooms-detail-slider-3.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="3" class=""><img src="img/rooms-detail-slider-4.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="4" class=""><img src="img/rooms-detail-slider-5.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="5" class=""><img src="img/rooms-detail-slider-6.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="6" class="active"><img src="img/rooms-detail-slider-7.jpg" alt="Chevrolet Impala"></li>
-                                            <li data-target="#carousel-custom" data-slide-to="7" class="active"><img src="img/rooms-detail-slider-8.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="0" class=""><img src="../../resources/img/rooms-detail-slider-1.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="1" class=""><img src="../../resources/img/rooms-detail-slider-2.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="2" class=""><img src="../../resources/img/rooms-detail-slider-3.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="3" class=""><img src="../../resources/img/rooms-detail-slider-4.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="4" class=""><img src="../../resources/img/rooms-detail-slider-5.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="5" class=""><img src="../../resources/img/rooms-detail-slider-6.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="6" class="active"><img src="../../resources/img/rooms-detail-slider-7.jpg" alt="Chevrolet Impala"></li>
+                                            <li data-target="#carousel-custom" data-slide-to="7" class="active"><img src="../../resources/img/rooms-detail-slider-8.jpg" alt="Chevrolet Impala"></li>
                                         </ol>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                                     <li>
                                         <div class="comment">
                                             <div class="avatar">
-                                                <img src="img/profile-01.jpg" alt="profile-01">
+                                                <img src="../../resources/img/profile-01.jpg" alt="profile-01">
                                             </div>
                                             <div class="comment-info">
                                                 <h4>Silva Naymar Doe</h4>
@@ -153,7 +153,7 @@
                                         </div>
                                         <div class="comment">
                                             <div class="avatar">
-                                                <img src="img/profile-02.jpg" alt="profile-02">
+                                                <img src="../../resources/img/profile-02.jpg" alt="profile-02">
                                             </div>
                                             <div class="comment-info">
                                                 <h4>Naymar Doe</h4>
@@ -169,7 +169,7 @@
                                             <li>
                                                 <div class="comment">
                                                     <div class="avatar">
-                                                        <img src="img/profile-03.jpg" alt="profile-03">
+                                                        <img src="../../resources/img/profile-03.jpg" alt="profile-03">
                                                     </div>
                                                     <div class="comment-info">
                                                         <h4>Alina Maikel</h4>
@@ -212,7 +212,7 @@
                                         </div>
                                     </div>
                                     <!-- Reviews Box Start -->
-                                    <form action="index.html">
+                                    <form action="/home">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <div class="form-group name">
@@ -293,11 +293,11 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <a href="#">
-                                                <img class="media-object" src="img/Recent-sub-01.jpg" alt="Recent-sub-01">
+                                                <img class="media-object" src="../../resources/img/Recent-sub-01.jpg" alt="Recent-sub-01">
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <a href="rooms-details.html">Amazing Place</a>
+                                            <a href="/roomdetails">Amazing Place</a>
                                             <span>October 18, 2016</span>
                                             <p>$45.000</p>
                                         </div>
@@ -305,11 +305,11 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <a href="#">
-                                                <img class="media-object" src="img/Recent-sub-02.jpg" alt="Recent-sub-02">
+                                                <img class="media-object" src="../../resources/img/Recent-sub-02.jpg" alt="Recent-sub-02">
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <a href="rooms-details.html">Amazing Place</a>
+                                            <a href="/roomdetails">Amazing Place</a>
                                             <span>October 18, 2016</span>
                                             <p>$45.000</p>
                                         </div>
@@ -317,11 +317,11 @@
                                     <div class="media">
                                         <div class="media-left">
                                             <a href="#">
-                                                <img class="media-object" src="img/footer-img-3.jpg" alt="footer-img-3">
+                                                <img class="media-object" src="../../resources/img/footer-img-3.jpg" alt="footer-img-3">
                                             </a>
                                         </div>
                                         <div class="media-body">
-                                            <a href="rooms-details.html">Amazing Place</a>
+                                            <a href="/roomdetails">Amazing Place</a>
                                             <span>October 18, 2016</span>
                                             <p>$45.000</p>
                                         </div>

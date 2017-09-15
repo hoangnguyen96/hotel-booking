@@ -14,14 +14,14 @@
                         <!-- Header -->
                         <div class="details">
                             <!-- logo Start -->
-                            <a href="index.html" class="logo">
-                                <img src="img/logo.png">
+                            <a href="/home" class="logo">
+                                <img src="../../resources/img/logo.png">
                             </a>
                             <!-- logo End -->
                             <h2>Forgot Password</h2>
                             <p>Please enter your email address below and we'll email you a link to a page where you can easily create a new password!</p>
                             <!-- Form -->
-                            <form method="post" class="login" action="index.html">
+                            <form method="post" class="login" action="/home">
                                 <!-- Email-->
                                 <div class="form-group Email">
                                     <input type="email" class="input-text" name="email" id="email" placeholder="Email Address">
@@ -33,7 +33,7 @@
                         <!-- Footer -->
                         <div class="footer">
                                 <span>
-                                    I want to <a href="login.html">return to login</a>
+                                    I want to <a href="/login">return to login</a>
                                 </span>
                         </div>
                     </div>

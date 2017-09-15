@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 footer-item clearfix">
                 <div class="footer-item-content">
-                    <a href="index.jsp" class="logo">
-                        <img src="/resources/img/footer-logo.png">
+                    <a href="/home" class="logo">
+                        <img src="../../resources/img/footer-logo.png">
                     </a>
                     <div class="clearfix"></div>
                     <!-- paragraph-->
@@ -54,7 +54,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="/resources/img/footer-img-1.jpg" alt="footer-img-1">
+                                <img class="media-object" src="../../resources/img/footer-img-1.jpg" alt="footer-img-1">
                             </a>
                         </div>
                         <div class="media-body">
@@ -66,7 +66,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="/resources/img/footer-img-2.jpg" alt="footer-img-2">
+                                <img class="media-object" src="../../resources/img/footer-img-2.jpg" alt="footer-img-2">
                             </a>
                         </div>
                         <div class="media-body">
@@ -78,7 +78,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="/resources/img/footer-img-3.jpg" alt="footer-img-3">
+                                <img class="media-object" src="../../resources/img/footer-img-3.jpg" alt="footer-img-3">
                             </a>
                         </div>
                         <div class="media-body">
@@ -118,47 +118,47 @@
 
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-1.jpg" alt="gallery-1">
+                            <img src="../../resources/img/gallery-1.jpg" alt="gallery-1">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-2.jpg" alt="gallery-2">
+                            <img src="../../resources/img/gallery-2.jpg" alt="gallery-2">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-3.jpg" alt="gallery-3">
+                            <img src="../../resources/img/gallery-3.jpg" alt="gallery-3">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-4.jpg" alt="gallery-4">
+                            <img src="../../resources/img/gallery-4.jpg" alt="gallery-4">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-5.jpg" alt="gallery-5">
+                            <img src="../../resources/img/gallery-5.jpg" alt="gallery-5">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-1.jpg" alt="gallery-1">
+                            <img src="../../resources/img/gallery-1.jpg" alt="gallery-1">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-2.jpg" alt="gallery-2">
+                            <img src="../../resources/img/gallery-2.jpg" alt="gallery-2">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-3.jpg" alt="gallery-3">
+                            <img src="../../resources/img/gallery-3.jpg" alt="gallery-3">
                         </a>
                     </div>
                     <div class="gallery-item">
                         <a href="#">
-                            <img src="/resources/img/gallery-4.jpg" alt="gallery-4">
+                            <img src="../../resources/img/gallery-4.jpg" alt="gallery-4">
                         </a>
                     </div>
                 </div>

@@ -47,13 +47,13 @@
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="slider-mover-left" aria-hidden="true">
-                <img src="/resources/img/chevron-left.png" alt="chevron-left">
+                <img src="../../resources/img/chevron-left.png" alt="chevron-left">
             </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
             <span class="slider-mover-right" aria-hidden="true">
-                <img src="/resources/img/chevron-right.png" alt="chevron-right">
+                <img src="../../resources/img/chevron-right.png" alt="chevron-right">
             </span>
             <span class="sr-only">Next</span>
         </a>
@@ -130,7 +130,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <!-- Rooms Box Start-->
                 <div class="thumbnail rooms-box clearfix">
-                    <img src="/resources/img/bedroom-1.jpg" alt="bedroom-1">
+                    <img src="../../resources/img/bedroom-1.jpg" alt="bedroom-1">
                     <!-- detail -->
                     <div class="caption detail">
                         <!-- Header -->
@@ -201,7 +201,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <!-- Rooms Box Start-->
                 <div class="thumbnail rooms-box clearfix">
-                    <img src="/resources/img/bedroom-2.jpg" alt="bedroom-2">
+                    <img src="../../resources/img/bedroom-2.jpg" alt="bedroom-2">
                     <!-- detail -->
                     <div class="caption detail">
                         <!-- Header -->
@@ -272,14 +272,14 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <!-- Rooms Box Start-->
                 <div class="thumbnail rooms-box clearfix">
-                    <img src="/resources/img/bedroom-6.jpg" alt="bedroom-6">
+                    <img src="../../resources/img/bedroom-6.jpg" alt="bedroom-6">
                     <!-- detail -->
                     <div class="caption detail">
                         <!-- Header -->
                         <header class="clearfix">
                             <div class="pull-left">
                                 <h5 class="title">
-                                    <a href="rooms-details.html">King Suite</a>
+                                    <a href="/roomdetails">King Suite</a>
                                 </h5>
                                 <ul class="custom-list">
                                     <li>
@@ -357,7 +357,7 @@
             <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
 
             <div class="short-intro-item-image">
-                <img src="/resources/img/spa.png" class="img-responsive" alt="group-pic">
+                <img src="../../resources/img/spa.png" class="img-responsive" alt="group-pic">
             </div>
         </div>
     </div>

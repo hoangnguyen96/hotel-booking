@@ -23,7 +23,7 @@
 
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Rooms</a>
+                        <a href="/rooms" class="dropdown-toggle"  role="button" aria-haspopup="true" aria-expanded="false">Rooms</a>
 
                     </li>
                     <li class="dropdown">
@@ -31,21 +31,21 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Shopping Cart</a></li>
-                            <li><a href="checkout.jsp">Checkout</a></li>
+                            <li><a href="#">Checkout</a></li>
                             <li><a href="/forgotpassword">Forgot Password</a></li>
                         </ul>
                     </li>
                     <li><a href="#">About</a></li>
-                    <%
-                        UserEntity user =(UserEntity) session.getAttribute("user");
-                        if(user!=null && user.getId()>0){
-                            String fullName = user.getFullName();
-                            out.print("bbbb");
-                            out.print(fullName);
-                        }else{
-                            out.print("aaaaaaaaaaaaaaaaaa");
-                        }
-                    %>
+                    <%--<%--%>
+                      <%  UserEntity user =(UserEntity) session.getAttribute("user"); %>
+                        <%--if(user!=null && user.getId()>0){--%>
+                            <%--String fullName = user.getFullName();--%>
+                            <%--out.print("bbbb");--%>
+                            <%--out.print(fullName);--%>
+                        <%--}else{--%>
+                            <%--out.print("aaaaaaaaaaaaaaaaaa");--%>
+                        <%--}--%>
+                    <%--%>
                         <c:if test="${fullName==null}">
                             <li><a href="/login">Login</a></li>
                             <li><a href="/register">Sign up</a></li>
@@ -53,7 +53,17 @@
                         <c:if test="${fullName!=null}">
                             <li><a href="/profile">${fullName}</a></li>
                             <li><a href="/logout">LOGOUT</a></li>
-                        </c:if>
+                        </c:if>--%>
+                    <c:choose>
+                        <c:when test="${user.fullName==null}">
+                            <li><a href="/login">Login</a></li>
+                            <li><a href="/register">Sign up</a></li>
+                        </c:when>
+                        <c:otherwise>
+                            <li><a href="/profile">${user.fullName}</a></li>
+                            <li><a href="/logout">LOGOUT</a></li>
+                        </c:otherwise>
+                    </c:choose>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

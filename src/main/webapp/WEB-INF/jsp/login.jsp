@@ -12,8 +12,8 @@
             <div class="form-content-box">
                 <div class="details">
                     <!-- logo Start -->
-                    <a href="index.jsp" class="logo">
-                        <img src="/resources/images/logo.png">
+                    <a href="/home" class="logo">
+                        <img src="../../resources/img/logo.png">
                     </a>
                     <!-- logo End -->
                     <h2>Đăng nhập với tài khoản của bạn</h2>
@@ -35,7 +35,7 @@
                         </div>
                         <!-- Forgot Password -->
                         <p class="forgot-password">
-                            <a href="forgot-password.html">Quên mật khẩu?</a>
+                            <a href="/forgotpassword">Quên mật khẩu?</a>
                         </p>
                         <!-- Btn -->
                         <input type="submit" name="submit" class="submit" value="Đăng nhập">

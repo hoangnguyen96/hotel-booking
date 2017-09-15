@@ -41,14 +41,14 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-1.jpg" alt="bedroom-1">
+                                    <img src="../../resources/img/bedroom-1.jpg" alt="bedroom-1">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -98,7 +98,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -111,14 +111,14 @@
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-2.jpg" alt="bedroom-2">
+                                    <img src="../../resources/img/bedroom-2.jpg" alt="bedroom-2">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -168,7 +168,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -181,14 +181,14 @@
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-6.jpg" alt="bedroom-6">
+                                    <img src="../../resources/img/bedroom-6.jpg" alt="bedroom-6">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -238,7 +238,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -251,14 +251,14 @@
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-4.jpg" alt="bedroom-4">
+                                    <img src="../../resources/img/bedroom-4.jpg" alt="bedroom-4">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -308,7 +308,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -321,14 +321,14 @@
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-5.jpg" alt="bedroom-5">
+                                    <img src="../../resources/img/bedroom-5.jpg" alt="bedroom-5">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -378,7 +378,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -391,14 +391,14 @@
 
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumbnail rooms-box clearfix">
-                                    <img src="img/bedroom-7.jpg" alt="bedroom-7">
+                                    <img src="../../resources/img/bedroom-7.jpg" alt="bedroom-7">
                                     <!-- detail -->
                                     <div class="caption detail">
                                         <!-- Header -->
                                         <header class="clearfix">
                                             <div class="pull-left">
                                                 <h5 class="title">
-                                                    <a href="rooms-details.html">King Suite</a>
+                                                    <a href="/roomdetails">King Suite</a>
                                                 </h5>
                                                 <ul class="custom-list">
                                                     <li>
@@ -448,7 +448,7 @@
                                         </ul>
                                         <!-- Btn Div-->
                                         <div class="btn-div">
-                                            <a href="rooms-details.html">
+                                            <a href="/roomdetails">
                                                 <span class="read-more">Ream More</span>
                                                 <span class="icon-arrow-right2 bg-danger">
                                                     <i class="fa  fa-angle-right"></i>
@@ -572,11 +572,11 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img class="media-object" src="img/Recent-sub-01.jpg" alt="Recent-sub-01">
+                                            <img class="media-object" src="../../resources/img/Recent-sub-01.jpg" alt="Recent-sub-01">
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="rooms-details.html">Amazing Place</a>
+                                        <a href="/roomdetails">Amazing Place</a>
                                         <span>October 18, 2016</span>
                                         <p>$45.000</p>
                                     </div>
@@ -584,11 +584,11 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img class="media-object" src="img/Recent-sub-02.jpg" alt="Recent-sub-02">
+                                            <img class="media-object" src="../../resources/img/Recent-sub-02.jpg" alt="Recent-sub-02">
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="rooms-details.html">Amazing Place</a>
+                                        <a href="/roomdetails">Amazing Place</a>
                                         <span>October 18, 2016</span>
                                         <p>$45.000</p>
                                     </div>
@@ -596,11 +596,11 @@
                                 <div class="media">
                                     <div class="media-left">
                                         <a href="#">
-                                            <img class="media-object" src="img/Recent-sub-03.jpg" alt="Recent-sub-03">
+                                            <img class="media-object" src="../../resources/img/Recent-sub-03.jpg" alt="Recent-sub-03">
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="rooms-details.html">Amazing Place</a>
+                                        <a href="/roomdetails">Amazing Place</a>
                                         <span>October 18, 2016</span>
                                         <p>$45.000</p>
                                     </div>
@@ -610,14 +610,14 @@
 
                             <!-- Rooms Box Start-->
                             <div class="thumbnail rooms-box clearfix">
-                                <img src="img/bedroom-1.jpg" alt="bedroom-1">
+                                <img src="../../resources/img/bedroom-1.jpg" alt="bedroom-1">
                                 <!-- detail -->
                                 <div class="caption detail">
                                     <!-- Header -->
                                     <header class="clearfix">
                                         <div class="pull-left">
                                             <h5 class="title">
-                                                <a href="rooms-details.html">King Suite</a>
+                                                <a href="/roomdetails">King Suite</a>
                                             </h5>
                                             <ul class="custom-list">
                                                 <li>
@@ -667,7 +667,7 @@
                                     </ul>
                                     <!-- Btn Div-->
                                     <div class="btn-div">
-                                        <a href="rooms-details.html">
+                                        <a href="/roomdetails">
                                             <span class="read-more">Ream More</span>
                                             <span class="icon-arrow-right2 bg-danger">
                                                 <i class="fa  fa-angle-right"></i>
@@ -690,7 +690,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="tel:+55-417-634-7071">
+                                        <a href="tel:+84-982-015-124">
                                             <i class="fa fa-phone"></i>
                                             +55 417 634 7071
                                         </a>

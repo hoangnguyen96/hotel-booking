@@ -12,8 +12,8 @@
             <div class="form-content-box">
                 <div class="details">
                     <!-- logo Start -->
-                    <a href="index.html" class="logo">
-                        <img src="img/logo.png">
+                    <a href="/home" class="logo">
+                        <img src="../../resources/img/logo.png">
                     </a>
                     <!-- logo End -->
                     <h2>New to Hotel Empire? Sign up now!</h2>
@@ -72,7 +72,7 @@
                 <!-- Footer -->
                 <div class="footer">
                         <span>
-                            Already have an account? <a href="login.jsp">Log in</a>
+                            Already have an account? <a href="/login">Log in</a>
                         </span>
                 </div>
             </div>
