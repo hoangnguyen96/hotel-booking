@@ -6,6 +6,6 @@
     <title>Title</title>
 </head>
 <body>
-    <c:redirect url="/"/>
+    <c:redirect url="/home"/>
 </body>
 </html>

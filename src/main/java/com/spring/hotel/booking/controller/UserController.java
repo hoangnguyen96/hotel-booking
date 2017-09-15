@@ -63,8 +63,9 @@ public class UserController {
             else {
                 HttpSession session = request.getSession();
                 session.setAttribute("user", userEntity1);
-                model.addAttribute("msg", "Chúc mừng bạn đã đăng nhập thành công ");
-                return "success";
+                System.out.print("====================================>");
+                System.out.print(userEntity1.getId());
+                return "redirect:/home";
             }
             }
         catch (Exception ex){

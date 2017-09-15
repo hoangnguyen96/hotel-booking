@@ -1,6 +1,7 @@
 package com.spring.hotel.booking.entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -8,7 +9,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "user")
-public class UserEntity {
+public class UserEntity implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,6 +42,25 @@ public class UserEntity {
     private RoleEntity roleEntity;
 
     public UserEntity() {
+    }
+
+    public UserEntity(List<BookingEntity> bookingEntityList, String fullName, String email, String address, String phone, String password, String sex, RoleEntity roleEntity) {
+        this.bookingEntityList = bookingEntityList;
+        this.fullName = fullName;
+        this.email = email;
+        this.address = address;
+        this.phone = phone;
+        this.password = password;
+        this.sex = sex;
+        this.roleEntity = roleEntity;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public List<BookingEntity> getBookingEntityList() {

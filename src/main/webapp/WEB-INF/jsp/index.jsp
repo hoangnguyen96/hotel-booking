@@ -381,4 +381,4 @@
 <jsp:include page="footer.jsp" />
 <jsp:include page="scrip.jsp" />
 </body>
-</html>>
+</html>

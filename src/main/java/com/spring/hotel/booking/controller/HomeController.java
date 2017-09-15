@@ -20,4 +20,18 @@ public class HomeController {
 
     @RequestMapping(value = "/register")
     public String register(){ return "register";}
+
+    @RequestMapping(value = "/update")
+    public String update(){return "update";}
+
+    @RequestMapping(value = "/forgotpassword")
+    public String forgotpassword(){return "forgotpassword";}
+
+    @RequestMapping(value = "/rooms")
+    public String rooms(){return "rooms";}
+
+    @RequestMapping(value = "/roomdetails")
+    public String roomdetails(){return "roomdetails";}
+
+
 }

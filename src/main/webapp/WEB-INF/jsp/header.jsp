@@ -1,3 +1,4 @@
+<%@ page import="com.spring.hotel.booking.entities.UserEntity" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header class="main-header">
@@ -31,20 +32,28 @@
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Shopping Cart</a></li>
                             <li><a href="checkout.jsp">Checkout</a></li>
-                            <li><a href="forgot-password.jsp">Forgot Password</a></li>
+                            <li><a href="/forgotpassword">Forgot Password</a></li>
                         </ul>
                     </li>
                     <li><a href="#">About</a></li>
-                    <c:choose>
-                        <c:when test="${empty user}">
+                    <%
+                        UserEntity user =(UserEntity) session.getAttribute("user");
+                        if(user!=null && user.getId()>0){
+                            String fullName = user.getFullName();
+                            out.print("bbbb");
+                            out.print(fullName);
+                        }else{
+                            out.print("aaaaaaaaaaaaaaaaaa");
+                        }
+                    %>
+                        <c:if test="${fullName==null}">
                             <li><a href="/login">Login</a></li>
-                        </c:when>
-                        <c:otherwise>
-                            <li><a href="/profile">${user.name}</a></li>
+                            <li><a href="/register">Sign up</a></li>
+                        </c:if>
+                        <c:if test="${fullName!=null}">
+                            <li><a href="/profile">${fullName}</a></li>
                             <li><a href="/logout">LOGOUT</a></li>
-                        </c:otherwise>
-                    </c:choose>
-                    <li><a href="/register">Signup</a></li>
+                        </c:if>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
