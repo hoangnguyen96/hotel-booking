@@ -9,7 +9,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "user")
-public class UserEntity implements Serializable{
+public class UserEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,7 +20,7 @@ public class UserEntity implements Serializable{
     private List<BookingEntity> bookingEntityList;
 
     @Column(name = "FullName")
-    private String fullName;
+    private String name;
 
     @Column(name = "Email")
     private String email;
@@ -37,6 +37,8 @@ public class UserEntity implements Serializable{
     @Column(name = "Sex")
     private String sex;
 
+    private boolean enable;
+
     @ManyToOne
     @JoinColumn(name = "roleId")
     private RoleEntity roleEntity;
@@ -44,16 +46,6 @@ public class UserEntity implements Serializable{
     public UserEntity() {
     }
 
-    public UserEntity(List<BookingEntity> bookingEntityList, String fullName, String email, String address, String phone, String password, String sex, RoleEntity roleEntity) {
-        this.bookingEntityList = bookingEntityList;
-        this.fullName = fullName;
-        this.email = email;
-        this.address = address;
-        this.phone = phone;
-        this.password = password;
-        this.sex = sex;
-        this.roleEntity = roleEntity;
-    }
 
     public int getId() {
         return id;
@@ -71,12 +63,20 @@ public class UserEntity implements Serializable{
         this.bookingEntityList = bookingEntityList;
     }
 
-    public String getFullName() {
-        return fullName;
+    public String getName() {
+        return name;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setName(String fullName) {
+        this.name = fullName;
+    }
+
+    public boolean isEnable() {
+        return enable;
+    }
+
+    public void setEnable(boolean enable) {
+        this.enable = enable;
     }
 
     public String getEmail() {

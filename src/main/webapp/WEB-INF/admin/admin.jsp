@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/home">Hotel Empire</a>
+                    <a class="navbar-brand" href="index.html">Hotel Empire</a>
                 </div>
                 <!-- /.navbar-header -->
 
@@ -56,14 +56,14 @@
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav" id="side-menu">
                             <li>
-                                <a href="index.html"><i class="fa fa-bar-chart-o fa-fw"></i> Thống kê</a>
+                                <a href="/admin"><i class="fa fa-bar-chart-o fa-fw"></i> Thống kê</a>
                                 <!-- /.nav-second-level -->
                             </li>
                             <li>
-                                <a href="tables.html"><i class="fa fa-user fa-fw"></i> User</a>
+                                <a href="/user"><i class="fa fa-user fa-fw"></i> User</a>
                             </li>
                             <li>
-                                <a href="hotel.html"><i class="fa fa-table fa-fw"></i> Hotel</a>
+                                <a href="/hotel"><i class="fa fa-table fa-fw"></i> Hotel</a>
                             </li>
                         </ul>
                     </div>
@@ -84,9 +84,7 @@
                             </div>
                             <!-- /.panel-heading -->
                             <div class="panel-body">
-                                <div class="flot-chart">
-                                    <div class="flot-chart-content" id="flot-line-chart"></div>
-                                </div>
+                                <div id="chart" style="..."></div>
                             </div>
                             <!-- /.panel-body -->
                         </div>
@@ -98,6 +96,7 @@
             <!-- /#page-wrapper -->
 
         </div>
+        <!-- /#wrapper -->
         <jsp:include page="footer.jsp" />
     </body>
 </html>

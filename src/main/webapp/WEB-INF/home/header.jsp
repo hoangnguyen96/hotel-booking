@@ -1,4 +1,4 @@
-<%@ page import="com.spring.hotel.booking.entities.UserEntity" %>
+<%--<%@ page import="com.spring.hotel.booking.entities.UserEntity" %>--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header class="main-header">
@@ -31,13 +31,13 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Service</a></li>
                             <li><a href="#">Shopping Cart</a></li>
-                            <li><a href="#">Checkout</a></li>
+                            <li><a href="/checkout">Checkout</a></li>
                             <li><a href="/forgotpassword">Forgot Password</a></li>
                         </ul>
                     </li>
                     <li><a href="#">About</a></li>
                     <%--<%--%>
-                      <%  UserEntity user =(UserEntity) session.getAttribute("user"); %>
+                      <%--<%  UserEntity user =(UserEntity) session.getAttribute("user"); %>--%>
                         <%--if(user!=null && user.getId()>0){--%>
                             <%--String fullName = user.getFullName();--%>
                             <%--out.print("bbbb");--%>
@@ -55,12 +55,12 @@
                             <li><a href="/logout">LOGOUT</a></li>
                         </c:if>--%>
                     <c:choose>
-                        <c:when test="${user.fullName==null}">
+                        <c:when test="${user.name==null}">
                             <li><a href="/login">Login</a></li>
                             <li><a href="/register">Sign up</a></li>
                         </c:when>
                         <c:otherwise>
-                            <li><a href="/profile">${user.fullName}</a></li>
+                            <li><a href="/profile">${user.name}</a></li>
                             <li><a href="/logout">LOGOUT</a></li>
                         </c:otherwise>
                     </c:choose>

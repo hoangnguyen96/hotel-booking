@@ -33,5 +33,6 @@ public class HomeController {
     @RequestMapping(value = "/roomdetails")
     public String roomdetails(){return "roomdetails";}
 
-
+    @RequestMapping(value = "/checkout")
+    public String checkout(){return "checkout";}
 }

@@ -64,7 +64,7 @@ public class UserController {
                 HttpSession session = request.getSession();
                 session.setAttribute("user", userEntity1);
                 System.out.print("====================================>");
-                System.out.print(userEntity1.getId());
+                System.out.print(userEntity1.getName());
                 return "redirect:/home";
             }
             }

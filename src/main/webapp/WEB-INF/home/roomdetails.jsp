@@ -132,60 +132,6 @@
 
                             </div>
                             <!-- content div End-->
-
-                            <!-- Comments Thread Start-->
-                            <div class="comments-thread clearfix">
-                                <h2 class="title">Comments Section</h2>
-                                <ul>
-                                    <li>
-                                        <div class="comment">
-                                            <div class="avatar">
-                                                <img src="../../resources/img/profile-01.jpg" alt="profile-01">
-                                            </div>
-                                            <div class="comment-info">
-                                                <h4>Silva Naymar Doe</h4>
-                                                <span>
-                                        <i>October</i> 20, 2016  at  1:09 <i>pm</i>
-                                    </span>
-                                            </div>
-                                            <p>Praesent rhoncus nunc vitae metus condi tum viverra. Fusce sed estorci condime felis. Ndisse ullamcorper vulputate sagittis. Quisque ullamcorper euismod.</p>
-                                            <a href="#" title="">Reply</a>
-                                        </div>
-                                        <div class="comment">
-                                            <div class="avatar">
-                                                <img src="../../resources/img/profile-02.jpg" alt="profile-02">
-                                            </div>
-                                            <div class="comment-info">
-                                                <h4>Naymar Doe</h4>
-                                                <span>
-                                        <i>October</i> 20, 2016  at  1:09 <i>pm</i>
-                                    </span>
-                                            </div>
-                                            <p>Praesent rhoncus nunc vitae metus condi tum viverra. Fusce sed estorci condime felis. Ndisse ullamcorper vulputate sagittis. Quisque ullamcorper euismod.</p>
-                                            <a href="#" title="">Reply</a>
-                                        </div>
-                                        <!-- Comment -->
-                                        <ul>
-                                            <li>
-                                                <div class="comment">
-                                                    <div class="avatar">
-                                                        <img src="../../resources/img/profile-03.jpg" alt="profile-03">
-                                                    </div>
-                                                    <div class="comment-info">
-                                                        <h4>Alina Maikel</h4>
-                                                        <span>
-                                                <i>januaryr</i> 4, 2016  at  2:05 <i>pm</i>
-                                            </span>
-                                                    </div>
-                                                    <p>Praesent rhoncus nunc vitae metus condi tum viverra. Fusce sed estorci condime felis. Ndisse ullamcorper vulputate sagittis. Quisque ullamcorper euismod.</p>
-                                                    <a href="#" title="">Reply</a>
-                                                </div><!-- Comment -->
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- Comments Thread ENd-->
                         </div>
 
                         <div class="col-ld-4 col-md-4 col-sm-12 col-xs-12">
