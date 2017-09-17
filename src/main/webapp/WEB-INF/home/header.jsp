@@ -63,8 +63,18 @@
                             <li><a href="/register">Sign up</a></li>
                         </c:when>
                         <c:otherwise>
-                            <li><a href="/profile">${fmt:toUpperCase(user.name)}</a></li>
-                            <li><a href="/logout">LOGOUT</a></li>
+                            <li class="dropdown">
+                                <a href="/profile" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/update">UPDATE</a></li>
+                                    <li><a href="/logout">LOGOUT</a></li>
+                                </ul>
+                            </li>
+                            <%--<li><a href="/profile">${fmt:toUpperCase(user.name)}</a></li>--%>
+                            <%--<li><a href="/logout"></a></li>--%>
                         </c:otherwise>
                     </c:choose>
                 </ul>

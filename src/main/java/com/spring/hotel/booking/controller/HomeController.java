@@ -35,4 +35,5 @@ public class HomeController {
 
     @RequestMapping(value = "/checkout")
     public String checkout(){return "../home/checkout";}
+
 }
