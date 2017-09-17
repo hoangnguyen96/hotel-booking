@@ -1,5 +1,7 @@
 package com.spring.hotel.booking.entities;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
@@ -24,10 +26,15 @@ public class BookingEntity {
     private UserEntity userId;
 
     @Column(name = "BookingDate")
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date bookingDate;
 
     @Column(name = "Scmnd")
     private String scmnd;
+
+    @Column(name = "Name")
+    private String name;
 
     @Column(name = "Phone")
     private String phone;
@@ -82,6 +89,14 @@ public class BookingEntity {
 
     public void setScmnd(String scmnd) {
         this.scmnd = scmnd;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPhone() {

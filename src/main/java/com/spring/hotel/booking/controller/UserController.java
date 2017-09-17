@@ -26,7 +26,7 @@ public class UserController {
     @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String register(Model model){
         model.addAttribute("userEntity", new UserEntity());
-        return "register";
+        return "../home/register";
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
@@ -38,18 +38,18 @@ public class UserController {
             userEntity.setPassword(Encryptor.createHash16Char(userEntity.getEmail(),userEntity.getPassword(),100));
             userRepository.save(userEntity);
             model.addAttribute("msg","Đăng kí thành công ! ");
-            return "success";
+            return "../home/success";
         }
         catch (Exception ex){
             model.addAttribute("msg", "Đăng ký không thành công!");
-            return "error";
+            return "../home/error";
         }
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(Model model){
         model.addAttribute("userEntity", new UserEntity());
-        return "login";
+        return "../home/login";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
@@ -58,7 +58,7 @@ public class UserController {
             UserEntity userEntity1= userRepository.findByEmailAndPassword(userEntity.getEmail(),Encryptor.createHash16Char(userEntity.getEmail(),userEntity.getPassword(),100));
             if(userEntity1 == null) {
                 model.addAttribute("msg", "Đăng nhập thất bại!");
-                return "error";
+                return "../home/error";
             }
             else {
                 HttpSession session = request.getSession();
@@ -70,7 +70,7 @@ public class UserController {
             }
         catch (Exception ex){
             model.addAttribute("msg", "Lỗi hệ thống!");
-            return "error";
+            return "../home/error";
         }
 
     }

@@ -1,5 +1,7 @@
 package com.spring.hotel.booking.entities;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -24,9 +26,13 @@ public class BookingDetailsEntity {
     private RoomEntity roomId;
 
     @Column(name = "DateCheckIn")
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date dateCheckIn;
 
     @Column(name = "DateCheckOut")
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date dateCheckOut;
 
     @Column(name = "AdultQuantity")

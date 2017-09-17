@@ -1,5 +1,8 @@
 <%--<%@ page import="com.spring.hotel.booking.entities.UserEntity" %>--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/functions" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <header class="main-header">
     <div class="container">
@@ -60,7 +63,7 @@
                             <li><a href="/register">Sign up</a></li>
                         </c:when>
                         <c:otherwise>
-                            <li><a href="/profile">${user.name}</a></li>
+                            <li><a href="/profile">${fmt:toUpperCase(user.name)}</a></li>
                             <li><a href="/logout">LOGOUT</a></li>
                         </c:otherwise>
                     </c:choose>

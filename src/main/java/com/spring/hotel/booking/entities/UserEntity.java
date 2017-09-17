@@ -19,7 +19,7 @@ public class UserEntity {
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "userId")
     private List<BookingEntity> bookingEntityList;
 
-    @Column(name = "FullName")
+    @Column(name = "Name")
     private String name;
 
     @Column(name = "Email")
